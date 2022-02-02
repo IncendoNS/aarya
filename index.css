@@ -25,3 +25,13 @@
 .tp-rightarrow {
     display: none !important;
 }
+
+.faq-bg {
+    background-image: url('./images/web-cover-1.jpg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    position: relative;
+}
