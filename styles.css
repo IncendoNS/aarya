@@ -129,7 +129,7 @@ body {
 }
 
 .faq-bg {
-  background-image: url('./images/coverblog.jpeg');
+  background-image: url('./images/web-cover.jpg');
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 600px; /* You must set a specified height */
   background-position: center; /* Center the image */
