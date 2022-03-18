@@ -28,10 +28,50 @@
 
 .faq-bg {
     background-image: url('./images/web-cover-1.jpg');
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 500px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
     background-size: cover;
     position: relative;
+}
+
+.blog-bg {
+    background-image: url('./images/blogimage.jpeg');
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 500px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .eltd-elements-holder-item-content.eltd-elements-holder-custom-170532 {
+        padding: 50px 21% 137px !important;
+    }
+
+    .eltd-elements-holder .eltd-elements-holder-item .eltd-elements-holder-item-inner {
+        height: 475px !important;
+    }
+
+    .active-women {
+        display: none !important;
+    }
+
+    .accordion-title{
+        font-size:15px;
+    }
+    .faq-title{
+        font-size: 21px;
+    }
 }
