@@ -68,10 +68,15 @@
         display: none !important;
     }
 
-    .accordion-title{
-        font-size:15px;
+    .accordion-title {
+        font-size: 15px;
     }
-    .faq-title{
+
+    .faq-title {
         font-size: 21px;
     }
+}
+
+.fb-logo {
+    margin-left: -25px !important;
 }

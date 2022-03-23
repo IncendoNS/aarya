@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
 }
+
 *::before,
 *::after {
   box-sizing: border-box;
@@ -92,6 +93,7 @@ body {
   height: 2px;
   background: currentColor;
 }
+
 .accordion button .icon::after {
   display: block;
   position: absolute;
@@ -106,15 +108,18 @@ body {
 .accordion button[aria-expanded='true'] {
   color: #111;
 }
+
 .accordion button[aria-expanded='true'] .icon::after {
   width: 0;
 }
-.accordion button[aria-expanded='true'] + .accordion-content {
+
+.accordion button[aria-expanded='true']+.accordion-content {
   opacity: 1;
   max-height: 15em;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
+
 .accordion .accordion-content {
   opacity: 0;
   max-height: 0;
@@ -122,6 +127,7 @@ body {
   transition: opacity 200ms linear, max-height 200ms linear;
   will-change: opacity, max-height;
 }
+
 .accordion .accordion-content p {
   font-size: 1rem;
   font-weight: 300;
@@ -130,14 +136,30 @@ body {
 
 .faq-bg {
   background-image: url('./images/web-cover.jpg');
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 600px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  height: 600px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
   background-size: cover;
   position: relative;
 }
 
 h1 {
   letter-spacing: normal !important;
+}
+
+.social_facebook:before {
+  content: "\e093";
+}
+
+.social_facebook:before {
+  content: "\e093";
+}
+
+.fb-logo {
+  margin-left: -25px !important;
 }
